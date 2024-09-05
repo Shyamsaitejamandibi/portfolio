@@ -7,9 +7,9 @@ export const DATA = {
   location: "Andhra Pradesh, India",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Web Developer and AI Enthusiast. I love building things and learning new technologies.",
+    "Turning ideas into reality with code and always on a quest to master the latest in web and AI tech.",
   summary:
-    "At the mid of 2023, I started exploring web development and worked on some mini projects and got into building and scaling of realtime websites, [I pursued a Bachelor of Technology in electrical engineering](/#education), ",
+    "At the mid of 2023, I began my journey into web development, diving into mini projects that quickly evolved into building and scaling real-time websites. My passion for technology isn't limited to just one field; And started to explore Machine Learning and Deep Learning which provided me with a strong foundation to explore the intersection of software development and artificial intelligence. Whether it's crafting seamless user experiences or pushing the boundaries of what's possible with AI, I'm dedicated to turning innovative ideas into reality.",
   // [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
   avatarUrl: "/Me.jpg",
   skills: [
@@ -36,13 +36,9 @@ export const DATA = {
         icon: Icons.linkedin,
       },
       X: {
-        url: "https://x.com/dillionverma",
+        url: "https://x.com/shyamsaiteja",
         icon: Icons.x,
       },
-      // Youtube: {
-      //   url: "https://youtube.com/c/dillionverma",
-      //   icon: Icons.youtube,
-      // },
     },
   },
 
@@ -65,7 +61,7 @@ export const DATA = {
       href: "https://nuza.com",
       location: "Remote",
       title: "Web Developer",
-      logoUrl: "",
+      logoUrl: "/images.png",
       start: "July 2024",
       end: "On Going",
       description:
@@ -77,7 +73,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Software Engineer",
-      logoUrl: "",
+      logoUrl: "/download.png",
       start: "May 2024",
       end: "July 2024",
       description:
@@ -111,128 +107,128 @@ export const DATA = {
       end: "2019",
     },
   ],
-  // projects: [
-  //   {
-  //     title: "Chat Collect",
-  //     href: "https://chatcollect.com",
-  //     dates: "Jan 2024 - Feb 2024",
-  //     active: true,
-  //     description:
-  //       "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-  //     technologies: [
-  //       "Next.js",
-  //       "Typescript",
-  //       "PostgreSQL",
-  //       "Prisma",
-  //       "TailwindCSS",
-  //       "Stripe",
-  //       "Shadcn UI",
-  //       "Magic UI",
-  //     ],
-  //     links: [
-  //       {
-  //         type: "Website",
-  //         href: "https://chatcollect.com",
-  //         icon: <Icons.globe className="size-3" />,
-  //       },
-  //     ],
-  //     image: "",
-  //     // video:
-  //     // "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-  //   },
-  //   {
-  //     title: "Magic UI",
-  //     href: "https://magicui.design",
-  //     dates: "June 2023 - Present",
-  //     active: true,
-  //     description:
-  //       "Designed, developed and sold animated UI components for developers.",
-  //     technologies: [
-  //       "Next.js",
-  //       "Typescript",
-  //       "PostgreSQL",
-  //       "Prisma",
-  //       "TailwindCSS",
-  //       "Stripe",
-  //       "Shadcn UI",
-  //       "Magic UI",
-  //     ],
-  //     links: [
-  //       {
-  //         type: "Website",
-  //         href: "https://magicui.design",
-  //         icon: <Icons.globe className="size-3" />,
-  //       },
-  //       {
-  //         type: "Source",
-  //         href: "https://github.com/magicuidesign/magicui",
-  //         icon: <Icons.github className="size-3" />,
-  //       },
-  //     ],
-  //     image: "",
-  //     video: "https://cdn.magicui.design/bento-grid.mp4",
-  //   },
-  //   {
-  //     title: "llm.report",
-  //     href: "https://llm.report",
-  //     dates: "April 2023 - September 2023",
-  //     active: true,
-  //     description:
-  //       "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-  //     technologies: [
-  //       "Next.js",
-  //       "Typescript",
-  //       "PostgreSQL",
-  //       "Prisma",
-  //       "TailwindCSS",
-  //       "Shadcn UI",
-  //       "Magic UI",
-  //       "Stripe",
-  //       "Cloudflare Workers",
-  //     ],
-  //     links: [
-  //       {
-  //         type: "Website",
-  //         href: "https://llm.report",
-  //         icon: <Icons.globe className="size-3" />,
-  //       },
-  //       {
-  //         type: "Source",
-  //         href: "https://github.com/dillionverma/llm.report",
-  //         icon: <Icons.github className="size-3" />,
-  //       },
-  //     ],
-  //     image: "",
-  //     video: "https://cdn.llm.report/openai-demo.mp4",
-  //   },
-  //   {
-  //     title: "Automatic Chat",
-  //     href: "https://automatic.chat",
-  //     dates: "April 2023 - March 2024",
-  //     active: true,
-  //     description:
-  //       "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-  //     technologies: [
-  //       "Next.js",
-  //       "Typescript",
-  //       "PostgreSQL",
-  //       "Prisma",
-  //       "TailwindCSS",
-  //       "Shadcn UI",
-  //       "Magic UI",
-  //       "Stripe",
-  //       "Cloudflare Workers",
-  //     ],
-  //     links: [
-  //       {
-  //         type: "Website",
-  //         href: "https://automatic.chat",
-  //         icon: <Icons.globe className="size-3" />,
-  //       },
-  //     ],
-  //     image: "",
-  //     video:
-  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-  //   },
-  // ],
+  projects: [
+    {
+      title: "Chat Collect",
+      href: "https://chatcollect.com",
+      dates: "Jan 2024 - Feb 2024",
+      active: true,
+      description:
+        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Stripe",
+        "Shadcn UI",
+        "Magic UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://chatcollect.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+    {
+      title: "Magic UI",
+      href: "https://magicui.design",
+      dates: "June 2023 - Present",
+      active: true,
+      description:
+        "Designed, developed and sold animated UI components for developers.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Stripe",
+        "Shadcn UI",
+        "Magic UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://magicui.design",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/magicuidesign/magicui",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://cdn.magicui.design/bento-grid.mp4",
+    },
+    {
+      title: "llm.report",
+      href: "https://llm.report",
+      dates: "April 2023 - September 2023",
+      active: true,
+      description:
+        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI",
+        "Stripe",
+        "Cloudflare Workers",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://llm.report",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/dillionverma/llm.report",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://cdn.llm.report/openai-demo.mp4",
+    },
+    {
+      title: "Automatic Chat",
+      href: "https://automatic.chat",
+      dates: "April 2023 - March 2024",
+      active: true,
+      description:
+        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI",
+        "Stripe",
+        "Cloudflare Workers",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://automatic.chat",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    },
+  ],
 } as const;
